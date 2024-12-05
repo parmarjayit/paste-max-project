@@ -18,9 +18,10 @@
 }
 .container-brown{
     background-color: #f5f6f6;
-    border-radius: 5px;
+    border-radius: 10px;
     max-width: 1320px;
     margin: auto;
+    padding: 48px 24px;
 }
 .container-pic{
     border-radius: 30px;
@@ -54,7 +55,7 @@
     z-index: -1;
     transform: rotate(44deg);
 }
-.container-pic img{
+.sub-container img{
     width: 100%;
 }
 .sub-container{
@@ -63,7 +64,7 @@
 }
 .container-blur{
     width: 100%;
-    height: 700px;
+    /* height: 700px; */
     /* border: 1px solid red; */
     background: url(/img/pic1.jpg),rgba(0, 0, 0, 0.658);
     background-blend-mode: overlay;
@@ -80,6 +81,15 @@
     /* display: flex; */
     /* justify-content: center; */
     flex-wrap: wrap;
+}
+.d-flex2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.f-center{
+    justify-content: center;
+    align-items:center ;
 }
 .box{
     /* background-color: rgb(51, 126, 238); */
@@ -119,6 +129,9 @@
 }
 .p-15{
     padding: 15px;
+}
+.p-48{
+    padding: 48px;
 }
 .mr-20{
     margin-right: 20px;
@@ -197,10 +210,9 @@
 }
 .f-end{
     justify-content: end;
+    align-items: center;
 }
-.f-end .box{
-    text-align: end;
-}
+
 .ri-map-pin-2-fill{
     font-size: 17px;
 }
@@ -279,7 +291,7 @@
     font-family:"Nunito",sans-serif;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 40px;
+    margin: 0px 0px 48px;
     line-height: 1.2;
 }
 .select{
@@ -444,17 +456,21 @@ padding-top: 30px;
     border-radius: 500px;
 }
 .text2{
-    margin-top: 280px;
     font-size: 40px;
     font-family:"Nunito",sans-serif;
     color: #fff;
     font-weight: 550;
     line-height: 1.2;
 }
+.e-mail{
+    display: flex;
+    width: 90%;
+    /* border: 1px solid white;
+    border-radius: 30px; */
+    padding: 40px 0px;
+}
 .e-mail input{
-    height: 50px;
-    border-radius:20px;
-    margin-top: 20px;
+    border-radius:30px 0px 0px 30px;
     font-size: 16px;
     width: 70%;
     border: none;
@@ -463,13 +479,14 @@ padding-top: 30px;
     padding-left: 20px;
 }
 .sub{
-    background-color: yellow;
-    font-family: "Open",sans-serif;
-    font-size: 16px;
-    padding: 15px 40px 15px 40px;
-    line-height: 1.5;
-    color: #000;
-    border-radius: 40px;
+     background-color: yellow;
+     font-family: "Open",sans-serif;
+     font-size: 16px;
+     padding: 15px 40px 15px 40px;
+     line-height: 1.5;
+     color: #000;
+     border-radius:0px 30px 30px 0px;
+     border: none;
 }
 .basic{
     border-bottom: 1px solid black;
@@ -850,4 +867,49 @@ h4{
 .fa-comments{
     padding-left: 100px;
     padding-right:5px ;
+}
+
+.container11{
+    max-width: 1320px;
+}
+
+.box8{
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: "Open",sans-serif;
+    line-height: 1.5;
+    color: #555;
+    background-color: #f5f6f6;
+    padding: 24px;
+}
+.box9 img{
+    border-radius: 50%;
+    /* border: 1px solid black; */
+}
+.p-4812{
+    padding: 100px 12px;
+}
+.box9{
+    padding: 20px;
+}
+
+.text20{
+    font-size: 24px;
+    font-family: "Nunito",sans-serif;
+    color: #111;
+    font-weight: 700;
+    padding-left:20px ;
+    padding-top: 10px;
+}
+.text20 p{
+    font-size: 16px;
+    color: #555;
+    font-weight: 400;
+    padding-top: 5px;
+    font-family: "Open",sans-serif;
+}
+.fa-star{
+    font-size: 16px;
+    color: #fdf001;
 }
