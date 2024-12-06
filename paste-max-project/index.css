@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.text-c{
+    text-align: center;
+}
 .container{
     max-width: 1320px;
     margin: auto;
@@ -114,6 +117,9 @@
     border-radius: 10px;
     padding: 30px;
 }
+.pt-10{
+    padding: 10px 0px ;
+}
 .man img{
     width: 100%;
 }
@@ -212,15 +218,23 @@
     justify-content: end;
     align-items: center;
 }
-
+.box a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Open",sans-serif;
+    color: #555;
+}
 .ri-map-pin-2-fill{
     font-size: 17px;
+    color: black;
 }
 .ri-phone-fill{
     font-size: 17px;
+    color: #000;
 }
 .ri-mail-open-fill{
     font-size: 16px;
+    color: #000;
 }
 .ri-search-line{
     padding-right:10px;
@@ -869,9 +883,90 @@ h4{
     padding-right:5px ;
 }
 
+/* <!---------------slider section------------> */
+
 .container11{
     max-width: 1320px;
+    margin: auto;
+    padding-bottom: 200px;
 }
+.sliding > div{
+    /* border: 1px solid red; */
+}
+.p-10{
+    padding: 10px;
+}
+
+.sliding .slick-prev {
+    background-color: #fdf001 !important;
+    width: 60px;
+    height: 40px;
+    top: 100px;
+    left: -48px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.sliding .slick-next{
+    background-color: #fdf001 !important;
+    width: 60px;
+    height: 40px;
+    top: 100px;
+    right: -48px;
+    border-radius: 0px 20px 20px 0px;
+}
+.sliding .slick-next:before {
+    font-size: 22px !important;
+    color: #000 !important;
+}
+.sliding .slick-prev:before {
+    font-size: 22px !important;
+    color: #000 !important;
+}
+
+
+
+
+.b-sliding .slick-next{
+    background-color: #fdf001 !important;
+    width: 80px;
+    height: 50px;
+    top: -26px;
+    right:19px;
+    border-radius: 30px 10px 10px 30px;
+}
+.b-sliding .slick-next:before{
+    font-size: 22px !important;
+    color: black !important;
+}
+
+
+
+
+
+.b-sliding .slick-prev{
+    background-color: #fdf001 !important;
+    width: 80px;
+    height: 50px;
+    top: -26px;
+    left:19px;
+    border-radius: 10px 30px 30px 10px;
+    color: black !important;
+}
+
+.b-sliding .slick-prev:before{
+    font-size: 22px !important;
+    color: black !important;
+}
+
+
+
+
+
+
+
+
+
+/* <!---------------slider section end------------> */
 
 .box8{
     /* border: 1px solid red; */
