@@ -13,7 +13,7 @@
 }
 .container-black{
     max-width: 100%;
-    background-color: black;
+    background-color: #111;
 }
 .container-flud{
     max-width: 100%;
@@ -92,7 +92,7 @@
 }
 .f-center{
     justify-content: center;
-    align-items:center ;
+    align-items:center;
 }
 .box{
     /* background-color: rgb(51, 126, 238); */
@@ -168,6 +168,9 @@
 }
 .mt-30{
     margin-top: 30px;
+}
+.mt-180{
+    margin-top: 180px;
 }
 .mt-38{
     margin-top: 38px;
@@ -261,14 +264,14 @@
 .pest{
     color:#fdf001;
     font-size:3rem;
-    font-weight: 600;
+    font-weight: 800;
     margin-left: 20px;
     font-family:"Nunito",sans-serif;
 }
 .kit{
     color: white;
     font-size:3rem;
-    font-weight: 600;
+    font-weight: 800;
     /* margin-left: 20px; */
     font-family:"Nunito",sans-serif;
 }
@@ -303,7 +306,7 @@
     color: black;
     font-size: 48px;
     font-family:"Nunito",sans-serif;
-    font-weight: 700;
+    font-weight: 800;
     text-align: center;
     margin: 0px 0px 48px;
     line-height: 1.2;
@@ -350,6 +353,7 @@
     border:2px solid #fdf001;
     border-radius: 20px;
     font-family:"Nunito",sans-serif;
+    font-weight: 700;
 }
 .world{
     padding-top: 5px;
@@ -473,7 +477,7 @@ padding-top: 30px;
     font-size: 40px;
     font-family:"Nunito",sans-serif;
     color: #fff;
-    font-weight: 550;
+    font-weight: 700;
     line-height: 1.2;
 }
 .e-mail{
@@ -774,7 +778,7 @@ justify-content: center;
 }
 .container-black1{
     max-width: 100%;
-    background-color: #111;
+    background-color: #111111;
 }
 .line4{
    margin: auto;
@@ -938,11 +942,6 @@ h4{
     font-size: 22px !important;
     color: black !important;
 }
-
-
-
-
-
 .b-sliding .slick-prev{
     background-color: #fdf001 !important;
     width: 80px;
@@ -1008,3 +1007,93 @@ h4{
     font-size: 16px;
     color: #fdf001;
 }
+
+
+/* <!-------------big slider start-----------> */
+.container15{
+    max-width: 100%;
+    margin: auto;
+}
+.imging img{
+    width: 100%;
+}
+.twoslide{
+   position: absolute;
+   /* border: 2px solid red; */
+   height: 100%;
+   width: 100%;
+   background-blend-mode: overlay;
+   background-color: #111111c0;
+   top: 0px;
+   left: 0px;
+}
+.relative{
+    position: relative;
+}
+.lineslide{
+    position: absolute;
+    height: 100%;
+    width: 500px;
+    top: 300px;
+    left: 290px;
+    color: #fff;
+    z-index: 3;
+}
+.lineslide h4{
+    color: #fff;
+    font-family: "Nunito",sans-serif;
+    font-weight: 700px;
+}
+.lineslide1 h1{
+    font-size: 80px;
+    font-family: "Nunito",sans-serif;
+   font-weight: 800;
+   line-height: 1.2;
+}
+.lineslide1{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 370px;
+    left: 310px;
+    color: #fff;
+    z-index: 3;
+}
+.lineslide1 a{
+   /*border: 1px solid red;
+   */text-decoration: none;
+   padding: 22px 50px;
+   background-color: #fdf001;
+   border-radius: 40px;
+   font-family: "Open",sans-serif;
+}
+
+.big-slider .slick-prev{
+    left: 0px !important;
+    background-color: #fdf001 !important;
+  
+    z-index: 10;
+    width: 80px;
+    height: 60px;
+    border-radius: 0px 40px 40px 0px;
+}
+.big-slider .slick-next{
+    right: 0px !important;
+    border-radius: 40px 0px 0px 40px;
+    background-color: #fdf001 !important;
+    color: #f5f6f6 !important;
+    z-index: 10;
+    width: 80px;
+    height: 60px;
+}
+
+.big-slider .slick-next:before{
+    color: #f5f6f6 !important;
+}
+.big-slider .slick-prev:before{
+    color: #f5f6f6 !important;
+}
+
+
+
+/* <!-------------big slider end-----------> */
